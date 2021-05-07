@@ -23,19 +23,7 @@ public class Simulator : MonoBehaviour
 
     public double imc; 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-   
-    public void calculator(){
+    public void calculator() {
         cinza = peso/20;
         azul = (4 * peso) / 50.0f;
         midazolan = 0.15f * peso;
@@ -44,25 +32,17 @@ public class Simulator : MonoBehaviour
         cetamina = (1.5f * peso)/50;
         vermelho = peso/10.0f;
     }
-
-   public void calcularIMC()
-   {
-      float p = float.Parse(pesot.text);
-      float a = float.Parse(altura.text);
-      
-      imc = p /  (a * a);
-      
-      peso = p;
-
-      if  (imc > 30) {
-	alerta.SetActive(true);
-     }
-     else 
-     {
-	next.SetActive(true);
-     }
-	
-   }
-
     
+    public void calcularIMC() {
+        float p = float.Parse(pesot.text);
+        float a = float.Parse(altura.text)/100;
+        imc = p /  (a * a);
+        peso = p;
+                
+        if  (imc > 30) {
+            alerta.SetActive(true);
+        } else {
+            next.SetActive(true);
+        }
+    }
 }

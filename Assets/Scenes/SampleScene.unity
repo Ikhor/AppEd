@@ -2637,8 +2637,8 @@ RectTransform:
   m_Father: {fileID: 1281419278}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.05415882, y: 0.31404456}
-  m_AnchorMax: {x: 0.9505507, y: 0.8408841}
+  m_AnchorMin: {x: 0.036299013, y: 0.1489005}
+  m_AnchorMax: {x: 0.9505507, y: 0.94835424}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2680,7 +2680,8 @@ MonoBehaviour:
     os incisivos < 3 dedos\r\n\tDist\xE2ncia do mento para hioide < 3 dedos\r\n\tDist\xE2ncia
     da cartilagem tireoide e osso hioide < 2 dedos\r\nObstru\xE7\xE3o\n\tQualquer
     condi\xE7\xE3o que possa causar obstru\xE7\xE3o das vias a\xE9reas\r\n\r\nMobilidade
-    do pesco\xE7o\r\n\tQualquer limita\xE7\xE3o ao movimento do pesco\xE7o\r\n\r\n"
+    do pesco\xE7o\r\n\tQualquer limita\xE7\xE3o ao movimento do pesco\xE7o\r\n\r\n<color=\"red\">\nCom
+    pelo menos um desses crit\xE9rios, considerar via a\xE9rea dif\xEDcil\n</color>"
 --- !u!222 &458092460
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7225,7 +7226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1281419278
 RectTransform:
   m_ObjectHideFlags: 0

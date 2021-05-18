@@ -2675,13 +2675,17 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Olhe externamente\n\tTrauma facial               \n\tMacro ou micrognatia\r\n\tIncisivos
-    grandes\r\n\tL\xEDngua grande\r\n\nAvalie a regra 3-3-2\n\tDist\xE2ncia entre
-    os incisivos < 3 dedos\r\n\tDist\xE2ncia do mento para hioide < 3 dedos\r\n\tDist\xE2ncia
-    da cartilagem tireoide e osso hioide < 2 dedos\r\nObstru\xE7\xE3o\n\tQualquer
+  m_Text: "Olhe externamente (<b>L</b>ook Externally)\r\n\t->Trauma facial\n\t->Macro
+    ou micrognatia\r\n\t->ncisivos grandes\r\n\t->L\xEDngua grande\r\n\nAvalie a
+    regra 3-3-2 (<b>E</b>valuate the 3-3-2 rule)\r\n\t->Dist\xE2ncia entre os incisivos
+    < 3 dedos\r\n\t->Dist\xE2ncia do mento para hioide < 3 dedos\r\n\t->Dist\xE2ncia
+    da cartilagem tireoide e osso hioide < 2 dedos\r\n\nObstru\xE7\xE3o (<b>O</b>bstruction)\n\t->Qualquer
     condi\xE7\xE3o que possa causar obstru\xE7\xE3o das vias a\xE9reas\r\n\r\nMobilidade
-    do pesco\xE7o\r\n\tQualquer limita\xE7\xE3o ao movimento do pesco\xE7o\r\n\r\n<color=\"red\">\nCom
-    pelo menos um desses crit\xE9rios, considerar via a\xE9rea dif\xEDcil\n</color>"
+    do pesco\xE7o\r (<b>N</b>eck mobility)\r\n\t->Qualquer limita\xE7\xE3o ao movimento
+    do pesco\xE7o\r\r\n<color=\"red\">\nCom pelo menos um desses crit\xE9rios, considerar
+    via a\xE9rea dif\xEDcil\n</color>\n\nAdaptado de Correlation between modified
+    LEMON score and intubation difficulty in adult trauma patients undergoing emergency
+    surgery, Ji et al. World Journal of Emergency Surgery (2018) 13:33 https://doi.org/10.1186/s13017-018-0195-0"
 --- !u!222 &458092460
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3317,10 +3321,10 @@ RectTransform:
   m_Father: {fileID: 345103704}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.10046735, y: 0.16674566}
+  m_AnchorMax: {x: 0.9004209, y: 0.854097}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &551825207
 MonoBehaviour:
@@ -3348,8 +3352,8 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 30
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -4069,7 +4073,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.1489005}
+  m_AnchorMax: {x: 1, y: 0.10138484}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4914,20 +4918,21 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 1
-    m_MaxSize: 70
+    m_MaxSize: 20
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "LIDOCA\xCDNA\r\nIntera\xE7\xF5es: Efeitos aumentados com betabloqueadores
-    e cimetidina.\r\nAten\xE7\xE3o: Prolonga a a\xE7\xE3o da succinilcolina; para
-    prote\xE7\xE3o durante a intuba\xE7\xE3o orotraqueal, injetar 1 a 2 min antes
-    da laringoscopia.\r\nContraindica\xE7\xF5es: S\xEDndrome de Stoke-Adams e Wolff-Parkinson-White;
-    bloqueios card\xEDacos (na aus\xEAncia de marca-passo); alergia a anest\xE9sicos
-    locais do tipo amida. \r\nEfeito Adverso: Pode causar convuls\xF5es; \r\nDoses:\r\nBolus
-    - 0,5-1,5 mg.kg-1 IV\r\n Manuten\xE7\xE3o - 1-2 mg.kg-1.h-1 IV\r\n"
+  m_Text: "LIDOCA\xCDNA\r\n<b>Intera\xE7\xF5es:</b> Efeitos aumentados com betabloqueadores
+    e cimetidina.\r\n<b>Aten\xE7\xE3o:</b> Prolonga a a\xE7\xE3o da succinilcolina;
+    para prote\xE7\xE3o durante a intuba\xE7\xE3o orotraqueal, injetar 1 a 2 min
+    antes da laringoscopia.\r\n<b>Contraindica\xE7\xF5es: </b>S\xEDndrome de Stoke-Adams
+    e Wolff-Parkinson-White; bloqueios card\xEDacos (na aus\xEAncia de marca-passo);
+    alergia a anest\xE9sicos locais do tipo amida. \r\n<b>Efeito Adverso:</b> Pode
+    causar convuls\xF5es; \r\n<b>Doses:\r</b>\n  Bolus - 0,5-1,5 mg.kg-1 IV\r\n 
+    Manuten\xE7\xE3o - 1-2 mg.kg-1.h-1 IV\r"
 --- !u!222 &819631735
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5347,26 +5352,27 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 1
-    m_MaxSize: 70
+    m_MaxSize: 20
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "FENTANIL\r\nIntera\xE7\xF5es: Anti-histam\xEDnicos; barbit\xFAricos; anest\xE9sicos
-    inalat\xF3rios; benzodiazep\xEDnicos s\xE3o potencializados.\r\nAten\xE7\xE3o:
+  m_Text: "FENTANIL\r\n<b>Intera\xE7\xF5es:</b> Anti-histam\xEDnicos; barbit\xFAricos;
+    anest\xE9sicos inalat\xF3rios; benzodiazep\xEDnicos s\xE3o potencializados.\r\n<b>Aten\xE7\xE3o:</b>
     Utiliza\xE7\xE3o associada a anest\xE9sicos inalat\xF3rios poder\xE1 aumentar
-    n\xE1useas e v\xF4mitos.\r\nContraindica\xE7\xE3o: Press\xE3o intracraniana(PIC) 
-    elevada (avaliar)\r\nEfeitos Adversos: Risco de t\xF3rax r\xEDgido ap\xF3s inje\xE7\xE3o
-    r\xE1pida ou dose elevada\r\nDoses:\r\n Indu\xE7\xE3o - 2-6 \xB5g.kg-1 IV em
-    bolus lento\r\n Manuten\xE7\xE3o - 0,01-0,05 \xB5g.kg-1.min-1 IV\r\n\r\nALFENTANIL\r\nIntera\xE7\xF5es:
-    Anti-histam\xEDnicos; barbit\xFAricos; anest\xE9sicos inalat\xF3rios; benzodiazep\xEDnicos
-    s\xE3o potencializados.\r\nAten\xE7\xE3o: Utiliza\xE7\xE3o associada a anest\xE9sicos
-    inalat\xF3rios poder\xE1 potencializar n\xE1useas e v\xF4mitos.\r\nContraindica\xE7\xE3o:
-    PIC elevada (avaliar)\r\nEfeitos Adversos: Risco de t\xF3rax r\xEDgido ap\xF3s
-    inje\xE7\xE3o r\xE1pida ou dose elevada\r\nDoses:\r\n Indu\xE7\xE3o - 20-40 \xB5g.kg-1
-    IV\r\n Manuten\xE7\xE3o - 0,5-1,5 \xB5g.kg-1.min-1 IV\r\n"
+    n\xE1useas e v\xF4mitos.\r\n<b>Contraindica\xE7\xE3o:</b> Press\xE3o intracraniana(PIC) 
+    elevada (avaliar)\r\n<b>Efeitos Adversos:</b> Risco de t\xF3rax r\xEDgido ap\xF3s
+    inje\xE7\xE3o r\xE1pida ou dose elevada\r\n<b>Doses:\r</b>\n Indu\xE7\xE3o -
+    2-6 \xB5g.kg-1 IV em bolus lento\r\n Manuten\xE7\xE3o - 0,01-0,05 \xB5g.kg-1.min-1
+    IV\r\n\r\nALFENTANIL\r\n<b>Intera\xE7\xF5es:</b> Anti-histam\xEDnicos; barbit\xFAricos;
+    anest\xE9sicos inalat\xF3rios; benzodiazep\xEDnicos s\xE3o potencializados.\r\n<b>Aten\xE7\xE3o:</b>
+    Utiliza\xE7\xE3o associada a anest\xE9sicos inalat\xF3rios poder\xE1 potencializar
+    n\xE1useas e v\xF4mitos.\r\n<b>Contraindica\xE7\xE3o:</b> PIC elevada (avaliar)\r\n<b>Efeitos
+    Adversos:</b> Risco de t\xF3rax r\xEDgido ap\xF3s inje\xE7\xE3o r\xE1pida ou
+    dose elevada\r\n<b>Doses:\r</b>\n Indu\xE7\xE3o - 20-40 \xB5g.kg-1 IV\r\n Manuten\xE7\xE3o
+    - 0,5-1,5 \xB5g.kg-1.min-1 IV\r"
 --- !u!222 &929276003
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5672,34 +5678,34 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 1
-    m_MaxSize: 70
+    m_MaxSize: 20
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "MIDAZOLAN\r\nIntera\xE7\xF5es: Reduz o requerimento de anest\xE9sicos
+  m_Text: "MIDAZOLAN\r\n<b>Intera\xE7\xF5es:</b> Reduz o requerimento de anest\xE9sicos
     inalat\xF3rios; potencializa a a\xE7\xE3o depressora dos anti-histam\xEDnicos
     e tranquilizantes; reduz o clearance: eritromicina e \xE1lcool e reduz o delirium
-    ocasionado pela cetamina.\r\nAten\xE7\xE3o: Uso concomitante com anest\xE9sicos
-    e opioides aumenta a depress\xE3o respirat\xF3ria.\r\nContraindica\xE7\xF5es:
-    Glaucoma de \xE2ngulo fechado; hipotens\xE3o (choque).\r\nDoses:\r\n Indu\xE7\xE3o
-    - 0,1-0,3 mg.kg-1 IV\r\n Manuten\xE7\xE3o - 0,25-1 \xB5g.kg-1.min-1 IV\r\n\r\nETOMIDATO\r\nIntera\xE7\xF5es:
-    Redu\xE7\xE3o de requerimentos de agentes anest\xE9sicos.\r\nAten\xE7\xE3o: Boa
-    op\xE7\xE3o para pacientes com instabilidade hemodin\xE2mica.\r\nContraindica\xE7\xF5es:
+    ocasionado pela cetamina.\r\n<b>Aten\xE7\xE3o:</b> Uso concomitante com anest\xE9sicos
+    e opioides aumenta a depress\xE3o respirat\xF3ria.\r\n<b>Contraindica\xE7\xF5es:</b>
+    Glaucoma de \xE2ngulo fechado; hipotens\xE3o (choque).\r\n<b>Doses:\r</b>\n Indu\xE7\xE3o
+    - 0,1-0,3 mg.kg-1 IV\r\n Manuten\xE7\xE3o - 0,25-1 \xB5g.kg-1.min-1 IV\r\n\r\nETOMIDATO\r\n<b>Intera\xE7\xF5es:</b>
+    Redu\xE7\xE3o de requerimentos de agentes anest\xE9sicos.\r\n<b>Aten\xE7\xE3o:</b>
+    Boa op\xE7\xE3o para pacientes com instabilidade hemodin\xE2mica.\r\n<b>Contraindica\xE7\xF5es:</b>
     Insufici\xEAncia adrenal; hist\xF3ria de convuls\xF5es (avaliar). N\xE3o deve
-    ser utilizado em infus\xE3o cont\xEDnua.\r\nEfeitos Adversos: Produz mioclonia;
-    Dose \xFAnica faz bloqueio tempor\xE1rio da adrenoesteroidog\xEAnes.\r\nDoses:\r\nIndu\xE7\xE3o
-    - 0,15-0,3 mg.kg-1 IV\r\n Manuten\xE7\xE3o - n\xE3o recomendada\r\n\r\nCETAMINA\r\nIntera\xE7\xF5es:
+    ser utilizado em infus\xE3o cont\xEDnua.\r\n<b>Efeitos Adversos:</b> Produz mioclonia;
+    Dose \xFAnica faz bloqueio tempor\xE1rio da adrenoesteroidog\xEAnes.\r\n<b>Doses:\r</b>\n
+    Indu\xE7\xE3o - 0,15-0,3 mg.kg-1 IV\r\n Manuten\xE7\xE3o - n\xE3o recomendada\r\n\r\nCETAMINA\r\n<b>Intera\xE7\xF5es:</b>
     Potencializa a a\xE7\xE3o de agentes anest\xE9sicos e prolonga a a\xE7\xE3o dos
-    bloqueadores neuromusculares adespolarizantes.\r\nAten\xE7\xE3o: Aumenta a atividade
-    el\xE9trica do SNC e pequenas doses diminuem os requerimentos de opioides; pode
-    ser utilizada na indu\xE7\xE3o de sequ\xEAncia r\xE1pida.\r\nContraindica\xE7\xF5es:
+    bloqueadores neuromusculares adespolarizantes.\r\n<b>Aten\xE7\xE3o:</b> Aumenta
+    a atividade el\xE9trica do SNC e pequenas doses diminuem os requerimentos de
+    opioides; pode ser utilizada na indu\xE7\xE3o de sequ\xEAncia r\xE1pida.\r\n<b>Contraindica\xE7\xF5es:</b>
     Aumento de PIC; hipertens\xE3o ou doen\xE7a coronariana; aumento da press\xE3o
-    intraocular (PIO).\r\nEfeitos Adversos: Potencializa a\xE7\xE3o dos bloqueadores
-    neuromuscular adespolarizantes; de causar convuls\xF5es\r\nDoses \r\n Bolus -
-    0,2-0,4 mg.kg-1\r\n Manuten\xE7\xE3o - 0,1-0,4 mg.kg-1.h-1 I\r\n"
+    intraocular (PIO).\r\n<b>Efeitos Adversos:</b> Potencializa a\xE7\xE3o dos bloqueadores
+    neuromuscular adespolarizantes; de causar convuls\xF5es\r\n<b>Doses</b>\n Bolus
+    - 0,2-0,4 mg.kg-1\r\n Manuten\xE7\xE3o - 0,1-0,4 mg.kg-1.h-1 I\r"
 --- !u!222 &978947555
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6662,28 +6668,28 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 1
-    m_MaxSize: 70
+    m_MaxSize: 20
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "SUCCINILCOLINA\r\nIntera\xE7\xF5es: Bloqueio prolongado com anest\xE9sicos
+  m_Text: "SUCCINILCOLINA\r\n<b>Intera\xE7\xF5es:</b> Bloqueio prolongado com anest\xE9sicos
     inalat\xF3rios; inibidores da colinesterase; antibi\xF3ticos; anticonvulsivantes;
-    l\xEDtio; magn\xE9sio; bloqueadores dos canais de c\xE1lcio e lidoca\xEDna.\r\nAten\xE7\xE3o:
+    l\xEDtio; magn\xE9sio; bloqueadores dos canais de c\xE1lcio e lidoca\xEDna.\r\n<b>Aten\xE7\xE3o:</b>
     Considerar utilizar f\xE1rmacos anticolin\xE9rgicos previamente pela potencial
-    influ\xEAncia arritmog\xEAnica vagal.\r\nContraindica\xE7\xF5es: Miopatias; desordens
-    na colinesterase plasm\xE1tica e hipertermia maligna.\r\nEfeitos Adversos: Pode
-    causar aumento da PIC, da PIO e press\xE3o intrag\xE1strica (PIG); Aumento de
-    K+ em pacientes acamados por longo tempo; causa fascicula\xE7\xE3o\r\nDoses:\r\nIndu\xE7\xE3o
-    - 0,5-1,5 mg.kg-1 IV\r\n Manuten\xE7\xE3o - n\xE3o recomendada\r\n\r\nROCUR\xD4NIO\r\nAten\xE7\xE3o:
+    influ\xEAncia arritmog\xEAnica vagal.\r\n<b>Contraindica\xE7\xF5es:</b> Miopatias;
+    desordens na colinesterase plasm\xE1tica e hipertermia maligna.\r\n<b>Efeitos
+    Adversos:</b> Pode causar aumento da PIC, da PIO e press\xE3o intrag\xE1strica
+    (PIG); Aumento de K+ em pacientes acamados por longo tempo; causa fascicula\xE7\xE3o\r\n<b>Doses:\r</b>\nIndu\xE7\xE3o
+    - 0,5-1,5 mg.kg-1 IV\r\n Manuten\xE7\xE3o - n\xE3o recomendada\r\n\r\nROCUR\xD4NIO\r\n<b>Aten\xE7\xE3o:</b>
     Bloqueio neuromuscular pode ser mantido atrav\xE9s de infus\xE3o, por\xE9m, h\xE1
     efeitos cumulativos; dentre os BNM adespolarizantes, \xE9 o de mais r\xE1pido
-    in\xEDcio de a\xE7\xE3o; verificar disponibilidade do sugamadex.\r\nContraindica\xE7\xF5es:
+    in\xEDcio de a\xE7\xE3o; verificar disponibilidade do sugamadex.\r\n<b>Contraindica\xE7\xF5es:</b>
     Insufici\xEAncia hep\xE1tica severa; hist\xF3ria de rea\xE7\xF5es al\xE9rgicas
-    a BNM esteroidais.\r\nDoses:\r\n Indu\xE7\xE3o - 0,6-1,2 mg.kg-1 IV\r\n Manuten\xE7\xE3o
-    - 0,3-0,6 mg.kg-1.h-1 IV\r\n"
+    a BNM esteroidais.\r\n<b>Doses:\r</b>\n Indu\xE7\xE3o - 0,6-1,2 mg.kg-1 IV\r\n
+    Manuten\xE7\xE3o - 0,3-0,6 mg.kg-1.h-1 IV\r"
 --- !u!222 &1086180566
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6724,10 +6730,10 @@ RectTransform:
   m_Father: {fileID: 1782758273}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.10046735, y: 0.16674566}
+  m_AnchorMax: {x: 0.9004209, y: 0.854097}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1126790704
 MonoBehaviour:
@@ -6755,8 +6761,8 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 30
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -7915,10 +7921,10 @@ RectTransform:
   m_Father: {fileID: 1826476147}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.10046735, y: 0.16674566}
+  m_AnchorMax: {x: 0.9004209, y: 0.854097}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1364472858
 MonoBehaviour:
@@ -7946,8 +7952,8 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 30
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -9528,6 +9534,87 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1598473144}
   m_CullTransparentMesh: 1
+--- !u!1 &1599697002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1599697003}
+  - component: {fileID: 1599697005}
+  - component: {fileID: 1599697004}
+  m_Layer: 5
+  m_Name: legenda
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1599697003
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599697002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2091830277}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.10138484}
+  m_AnchorMax: {x: 1, y: 0.19782439}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1599697004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599697002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Adaptado de Recomenda\xE7\xE3o da Sociedade Brasileira de Anestesiologia
+    (SBA) para o Uso Racional de F\xE1rmacos para Anestesia e Seda\xE7\xE3o durante
+    a Covid-19, 09 de junho de 2020"
+--- !u!222 &1599697005
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599697002}
+  m_CullTransparentMesh: 1
 --- !u!1 &1606080681
 GameObject:
   m_ObjectHideFlags: 0
@@ -10304,10 +10391,10 @@ RectTransform:
   m_Father: {fileID: 533878694}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.10046735, y: 0.16674566}
+  m_AnchorMax: {x: 0.9004209, y: 0.854097}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1779125330
 MonoBehaviour:
@@ -10335,8 +10422,8 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 30
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -12226,6 +12313,7 @@ RectTransform:
   - {fileID: 345103704}
   - {fileID: 1782758273}
   - {fileID: 1826476147}
+  - {fileID: 1599697003}
   m_Father: {fileID: 1529800703}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

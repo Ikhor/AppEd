@@ -49,7 +49,11 @@ public class LabelFiller : MonoBehaviour
                 {
                     if (t.isOn) {
                         textToShow = textToShow.Replace("{nome}", t.name);
-                        if (t.name.Equals("Alfentanil"))
+                        if (t.name.Equals("Nao"))
+                        {
+                            textToShow = "Sem dosagem à aplicar";
+                        }
+                        else if (t.name.Equals("Alfentanil"))
                         {
                             textToShow = textToShow.Replace("{quantidade}", "500");
                         }
@@ -68,7 +72,11 @@ public class LabelFiller : MonoBehaviour
                     if (t.isOn)
                     {
                         textToShow = textToShow.Replace("{nome}", t.name);
-                        if (t.name.Equals("Etomidato"))
+                        if (t.name.Equals("Nao"))
+                        {
+                            textToShow = "Sem dosagem à aplicar";
+                        }
+                        else if (t.name.Equals("Etomidato"))
                         {
                             textToShow = textToShow.Replace("{quantidade}", "2");
                             textToShow = textToShow.Replace("{dosagem}", simulator.etomidato.ToString("#.##"));
@@ -95,12 +103,16 @@ public class LabelFiller : MonoBehaviour
             case Simulator.Color.Vermelho:
                 foreach (Toggle t in choices)
                 {
+                    
                     if (t.isOn)
                     {
                         textToShow = defaultText.Replace("{nome}", t.name);
                         selected = t.name;
-
-                        if (t.name.Equals("Succinilcolina"))
+                        if (t.name.Equals("Nao"))
+                        {
+                            textToShow = "Sem dosagem à aplicar";
+                        }
+                        else if (t.name.Equals("Succinilcolina"))
                         {
                             textToShow = textToShow.Replace("{quantidade}", "100mg + 10 ml AD");
                             textToShow = textToShow.Replace("{dosagem}", simulator.vermelho.ToString("#.##"));

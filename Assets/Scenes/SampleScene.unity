@@ -155,8 +155,8 @@ RectTransform:
   m_Father: {fileID: 738726564}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.06460196, y: 0.39792505}
-  m_AnchorMax: {x: 0.95046824, y: 0.7995281}
+  m_AnchorMin: {x: 0.045114435, y: 0.77255934}
+  m_AnchorMax: {x: 0.9521223, y: 0.8980575}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1199,6 +1199,7 @@ MonoBehaviour:
   choices:
   - {fileID: 502672218}
   - {fileID: 2069747582}
+  - {fileID: 1816133168}
   selected: 
 --- !u!114 &216785556
 MonoBehaviour:
@@ -2676,8 +2677,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Olhe externamente (<b>L</b>ook Externally)\r\n\t->Trauma facial\n\t->Macro
-    ou micrognatia\r\n\t->ncisivos grandes\r\n\t->L\xEDngua grande\r\n\nAvalie a
-    regra 3-3-2 (<b>E</b>valuate the 3-3-2 rule)\r\n\t->Dist\xE2ncia entre os incisivos
+    ou micrognatia\r\n\t->Dentes incisivos grandes\r\n\t->L\xEDngua grande\r\n\nAvalie
+    a regra 3-3-2 (<b>E</b>valuate the 3-3-2 rule)\r\n\t->Dist\xE2ncia entre os incisivos
     < 3 dedos\r\n\t->Dist\xE2ncia do mento para hioide < 3 dedos\r\n\t->Dist\xE2ncia
     da cartilagem tireoide e osso hioide < 2 dedos\r\n\nObstru\xE7\xE3o (<b>O</b>bstruction)\n\t->Qualquer
     condi\xE7\xE3o que possa causar obstru\xE7\xE3o das vias a\xE9reas\r\n\r\nMobilidade
@@ -3464,7 +3465,19 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1483127167}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
@@ -4494,7 +4507,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &738726564
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4508,6 +4521,7 @@ RectTransform:
   m_Children:
   - {fileID: 1606080682}
   - {fileID: 56739467}
+  - {fileID: 989164962}
   m_Father: {fileID: 1529800703}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5696,8 +5710,8 @@ MonoBehaviour:
     Boa op\xE7\xE3o para pacientes com instabilidade hemodin\xE2mica.\r\n<b>Contraindica\xE7\xF5es:</b>
     Insufici\xEAncia adrenal; hist\xF3ria de convuls\xF5es (avaliar). N\xE3o deve
     ser utilizado em infus\xE3o cont\xEDnua.\r\n<b>Efeitos Adversos:</b> Produz mioclonia;
-    Dose \xFAnica faz bloqueio tempor\xE1rio da adrenoesteroidog\xEAnes.\r\n<b>Doses:\r</b>\n
-    Indu\xE7\xE3o - 0,15-0,3 mg.kg-1 IV\r\n Manuten\xE7\xE3o - n\xE3o recomendada\r\n\r\nCETAMINA\r\n<b>Intera\xE7\xF5es:</b>
+    Dose \xFAnica faz bloqueio tempor\xE1rio da adrenoesteroidog\xEAnes.\r\n<b>Doses:\r</b>\nIndu\xE7\xE3o
+    - 0,15-0,3 mg.kg-1 IV\r\n Manuten\xE7\xE3o - n\xE3o recomendada\r\n\r\nCETAMINA\r\n<b>Intera\xE7\xF5es:</b>
     Potencializa a a\xE7\xE3o de agentes anest\xE9sicos e prolonga a a\xE7\xE3o dos
     bloqueadores neuromusculares adespolarizantes.\r\n<b>Aten\xE7\xE3o:</b> Aumenta
     a atividade el\xE9trica do SNC e pequenas doses diminuem os requerimentos de
@@ -5792,6 +5806,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985547558}
+  m_CullTransparentMesh: 1
+--- !u!1 &989164961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 989164962}
+  - component: {fileID: 989164964}
+  - component: {fileID: 989164963}
+  m_Layer: 5
+  m_Name: Img
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &989164962
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989164961}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 738726564}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.15596683, y: 0.17375845}
+  m_AnchorMax: {x: 0.8003781, y: 0.5711226}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &989164963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989164961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2a6e79f27b4e7c84c8cf26537ef0f15b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &989164964
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989164961}
   m_CullTransparentMesh: 1
 --- !u!1 &1007096788
 GameObject:
@@ -6397,7 +6486,19 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1483127167}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
@@ -6688,8 +6789,8 @@ MonoBehaviour:
     efeitos cumulativos; dentre os BNM adespolarizantes, \xE9 o de mais r\xE1pido
     in\xEDcio de a\xE7\xE3o; verificar disponibilidade do sugamadex.\r\n<b>Contraindica\xE7\xF5es:</b>
     Insufici\xEAncia hep\xE1tica severa; hist\xF3ria de rea\xE7\xF5es al\xE9rgicas
-    a BNM esteroidais.\r\n<b>Doses:\r</b>\n Indu\xE7\xE3o - 0,6-1,2 mg.kg-1 IV\r\n
-    Manuten\xE7\xE3o - 0,3-0,6 mg.kg-1.h-1 IV\r"
+    a BNM esteroidais.\r\n<b>Doses:\r</b>\n Indu\xE7\xE3o - 0,6-1,2 mg.kg-1 IV\r\nManuten\xE7\xE3o
+    - 0,3-0,6 mg.kg-1.h-1 IV\r"
 --- !u!222 &1086180566
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8191,15 +8292,15 @@ CanvasRenderer:
 --- !u!1 &1387085445
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7416913505297172884, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+  m_PrefabInstance: {fileID: 7416913503998719761}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1387085446}
   - component: {fileID: 1387085447}
   m_Layer: 5
-  m_Name: NoneAmarelo
+  m_Name: Nao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8208,8 +8309,8 @@ GameObject:
 --- !u!224 &1387085446
 RectTransform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+  m_PrefabInstance: {fileID: 7416913503998719761}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387085445}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -8227,8 +8328,8 @@ RectTransform:
 --- !u!114 &1387085447
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7416913505297172886, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+  m_PrefabInstance: {fileID: 7416913503998719761}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387085445}
   m_Enabled: 1
@@ -8330,6 +8431,7 @@ MonoBehaviour:
   - {fileID: 2014138345}
   - {fileID: 728999564}
   - {fileID: 304888741}
+  - {fileID: 1387085447}
   selected: 
 --- !u!114 &1414469281
 MonoBehaviour:
@@ -10697,7 +10799,7 @@ GameObject:
   - component: {fileID: 1816133167}
   - component: {fileID: 1816133168}
   m_Layer: 5
-  m_Name: NoneAzul
+  m_Name: Nao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11380,6 +11482,7 @@ MonoBehaviour:
   choices:
   - {fileID: 200567814}
   - {fileID: 469044668}
+  - {fileID: 2032153790}
   selected: 
 --- !u!114 &1903844411
 MonoBehaviour:
@@ -11700,8 +11803,8 @@ RectTransform:
   m_Father: {fileID: 1347314696}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.91481394, y: 0.87781614}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.39501098, y: 0.8876691}
+  m_AnchorMax: {x: 0.5987874, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -11896,7 +11999,7 @@ GameObject:
   - component: {fileID: 2032153789}
   - component: {fileID: 2032153790}
   m_Layer: 5
-  m_Name: NoneVermelho
+  m_Name: Nao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12593,3 +12696,104 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143712928}
   m_CullTransparentMesh: 1
+--- !u!1001 &7416913503998719761
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 332067855}
+    m_Modifications:
+    - target: {fileID: 7416913505297172884, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_Name
+      value: Nao
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172886, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_Group
+      value: 
+      objectReference: {fileID: 1165864685}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416913505297172887, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3d8d7ca2e666af49975487898d6abcb, type: 3}
